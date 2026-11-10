@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: venturelens
+    env: python
+    buildCommand: pip install -r requirements.txt && python scripts/download_data.py
+    startCommand: streamlit run app.py --server.address 0.0.0.0 --server.port $PORT

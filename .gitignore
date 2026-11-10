@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.streamlit/
+data/raw/*.csv
+models/*.joblib
+models/metrics.json
+models/feature_columns.json
+reports/*.csv
